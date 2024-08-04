@@ -13,3 +13,21 @@ I’m trying to, via a C library imported into my Tcl script on MacOS, make a sc
 - [ ] 5. Saves it to ~/Downloads AND displays it to the GUI using a tiny Tk script.
 
 This repo currently does only 1. and 2.
+
+### Devlog
+
+## August 3, 2024:
+
+- [x] 1. Reads what web cams (including the built in one) are available
+- [x] 2. Offers those as a list on the CLI
+
+├── Makefile (wrote Makefile)
+├── README.md (wrote this README you're reading)
+├── assets
+│   └── logo_figjam.png (Made logo)
+├── bin
+│   └── cam (compiled cam.m)
+└── src
+    ├── cam.m (wrote cam.m, Objective-C version of cam.swift)
+    ├── cam.swift (wrote cam.swift)
+    └── cam.tcl (wrote cam.tcl)
