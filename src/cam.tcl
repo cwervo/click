@@ -1,6 +1,5 @@
 #! /usr/bin/env tclsh8.6
 
-# Function to get available webcams using Objective-C
 proc get_available_webcams {} {
     set result [catch {
         exec swift src/cam.swift
@@ -16,13 +15,6 @@ proc get_available_webcams {} {
     set webcams [lsearch -all -inline -not -exact $webcams ""]
     
     return $webcams
-}
-
-# Function to get available webcams
-proc get_available_webcams_mock {} {
-    # This is a placeholder. In a real implementation, you'd need to use
-    # a C/Objective-C extension to get the actual list of webcams.
-    return [list "Built-in FaceTime HD Camera" "External USB Webcam"]
 }
 
 # Function to display menu and get user selection
