@@ -1,4 +1,6 @@
-# CLIck — A CLI Camera Interface for MacOS
+# CLIck — Your CLI Camera companion
+
+![CLIck Logo](/assets/logo_figjam.png)
 
 ## Goal:
 
