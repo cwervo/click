@@ -1,6 +1,6 @@
 # CLIck — Your CLI Camera companion
 
-![CLIck Logo](/assets/logo_figjam.png)
+<img src="/assets/logo_figjam.png" alt="CLIck Logo" height="300px" />
 
 ## Goal:
 
