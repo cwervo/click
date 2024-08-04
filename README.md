@@ -1,6 +1,6 @@
-# Tclcam
+# CLIck — A CLI Camera Interface for MacOS
 
-Goal:
+## Goal:
 
 I’m trying to, via a C library imported into my Tcl script on MacOS, make a script that:
 
